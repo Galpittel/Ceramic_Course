@@ -1,0 +1,51 @@
+/* Gallery container */
+.gallery-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Image gallery */
+.image-gallery {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Image gallery bullets */
+.image-gallery-bullets .image-gallery-bullets-container {
+    margin-top: 10px;
+}
+
+/* Selected bullet */
+.image-gallery-bullets .image-gallery-bullet.selected {
+    background-color: #333;
+}
+
+/* Image wrapper */
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Zoomed image wrapper */
+.image-wrapper.zoomed {
+    z-index: 1;
+}
+
+/* Image */
+.image {
+    display: block;
+    width: 100%;
+}
+
+/* Caption */
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+}

@@ -1,0 +1,44 @@
+
+.WorkshopForm {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.WorkshopForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.WorkshopForm input[type="number"],
+.WorkshopForm input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.WorkshopForm button {
+    display: block;
+    margin: auto auto;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.WorkshopForm button:hover {
+    background-color: #005fa3;
+}
+
+.WorkshopForm p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0077cc;
+}
+

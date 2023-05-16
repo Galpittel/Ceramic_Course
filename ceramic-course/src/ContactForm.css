@@ -1,0 +1,70 @@
+.contact-form-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0052cc;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #128c7e;
+}
+
+label[for][required]:before {
+    content: '*';
+    color: red;
+    margin-right: 5px;
+}
+
+button[type="whatsapp"] {
+    display: flex;
+    margin: 20px auto;
+}
